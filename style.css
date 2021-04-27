@@ -1,0 +1,91 @@
+*{
+    background-image: url(/images/poke_background2.jpg);
+    background-color: lightskyblue;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.headerContainer{
+    width: 100px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 25pt;
+    background: none;
+
+}
+.info{
+    font: 15pt bold;
+    background: none;
+    height: 25px;
+    width: 100vw;
+    display: flex px px px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child1{
+    background: none;
+    justify-content: center;
+    align-items: center;
+    font: 15pt bold;
+    margin: auto;
+    width: 50%;
+    text-transform: capitalize; 
+
+}
+.divToHoldPokemonInfo{
+    background: transparent;
+}
+#pokeName{
+    background: transparent;
+}
+#pokeType{
+    background: transparent;
+}
+#pokeNumber{
+    background: transparent;
+}
+
+
+.formOne{
+    background: none;
+    display: flex;
+    align-items: center;
+    font: 25pt bold;
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+   }
+.form{
+    width: 150px;
+    padding: 10px;
+    font: 25pt bold;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    margin: auto;
+}
+input, select, textarea{
+    color: #2b0fa7;
+    
+}
+
+textarea:focus, input:focus {
+    color: #2b0fa7;
+}
+#submitText{
+    background: white; 
+    font-style: bold;
+    font-size: 15pt;
+    margin-right: 10px;
+}
+#submitBtn{
+    font-style: bold;
+    font-size: 15pt;
+    margin-left: 10px;
+}
